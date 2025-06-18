@@ -1,0 +1,168 @@
+.header {
+  margin-bottom: 35px;
+  text-align: center;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.searchInput {
+  width: 100%;
+  padding: 10px 15px;
+  margin-bottom: 20px;
+  border: 1px solid var(--gray-color);
+  border-radius: var(--border-radius);
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.addUserSection {
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: var(--light-color);
+  border-radius: var(--border-radius);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.addUserSectionOpen {
+  width: 70%;
+}
+
+.usersTable {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: var(--border-radius);
+  margin-bottom: 20px;
+  background-color: var(--light-color);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.usersTable th {
+  padding: 12px 15px;
+  text-align: left;
+  background-color: var(--gray-color);
+  position: relative;
+
+  &:nth-child(1) {
+    border-top-left-radius: var(--border-radius);
+  }
+
+  &:last-child {
+    border-top-right-radius: var(--border-radius);
+  }
+}
+
+.usersTable th:hover {
+  background-color: #e0e0e0;
+}
+
+.usersTable td {
+  padding: 12px 15px;
+  border-bottom: 1px solid var(--gray-color);
+}
+
+.usersTable tr:last-child td {
+  border-bottom: none;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.actionButton {
+  padding: 8px 12px;
+  margin-right: 8px;
+  border: none;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.editButton {
+  background-color: #4caf50;
+  color: white;
+}
+
+.editButton:hover {
+  background-color: #45a049;
+}
+
+.deleteButton {
+  background-color: var(--red-color);
+  color: white;
+}
+
+.deleteButton:hover {
+  background-color: #c41414;
+}
+
+.addButton {
+  background-color: #2196f3;
+  color: white;
+  margin-top: 10px;
+}
+
+.addButton:hover {
+  background-color: #0b7dda;
+}
+
+.loadingIndicator {
+  text-align: center;
+  padding: 20px;
+  font-size: 18px;
+}
+
+.errorMessage {
+  color: var(--red-color);
+  text-align: center;
+  padding: 20px;
+  font-size: 18px;
+}
+
+.noUsers {
+  text-align: center;
+  padding: 20px;
+}
+
+.modalContent {
+  padding: 20px;
+  background-color: white;
+  border-radius: var(--border-radius);
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.modalButtons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.confirmButton {
+  background-color: var(--red-color);
+  color: white;
+}
+
+.cancelButton {
+  background-color: var(--gray-color);
+}
+
+.editButton,
+.deleteButton,
+.addButton,
+.confirmButton,
+.cancelButton {
+  padding: 8px 12px;
+  margin-right: 8px;
+  border: none;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease-in-out; 
+}

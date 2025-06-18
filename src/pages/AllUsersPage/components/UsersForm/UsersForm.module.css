@@ -1,0 +1,114 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 100%;
+  margin: 0;
+  padding: 20px;
+  background-color: var(light-color);
+  border-radius: 20px;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+}
+
+.input,
+.select {
+  padding: 10px 12px;
+  border: 1px solid var(--gray-color);
+  border-radius: 4px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease-in-out;
+  width: 100%;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+.title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: var(--black-color);
+}
+
+.label {
+  font-weight: 500;
+  color: var(--black-color);
+}
+
+.input:focus,
+.select:focus {
+  outline: none;
+  border-color: #2196f3;
+}
+
+.select {
+  appearance: none;
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 1em;
+}
+
+.error {
+  color: var(--red-color);
+  font-size: 0.875rem;
+  margin-top: 4px;
+}
+
+.buttonGroup {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease-in-out;
+  margin-right: 8px;
+}
+
+.submitButton {
+  background-color: #4caf50;
+  color: white;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.submitButton:hover {
+  background-color: #45a049;
+}
+
+.cancelButton {
+  background-color: var(--black-color);
+  color: var(--light-color);
+  transition: background-color 0.3s ease-in-out, color .3s ease-in-out;
+}
+
+.submitButton,
+.cancelButton {
+  padding: 8px 12px;
+  border: none;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.2s ease-in-out;
+  margin-right: 8px;
+}
+
+.cancelButton:hover {
+  background-color: #393939;
+}
+
+.lastUpdated {
+  font-size: 0.875rem;
+  color: #666;
+  margin-top: 4px;
+}

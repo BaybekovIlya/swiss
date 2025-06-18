@@ -1,0 +1,51 @@
+.select {
+  width: 100%;
+  padding: 10px 15px;
+  margin-bottom: 20px;
+  border: 1px solid var(--gray-color);
+  border-radius: var(--border-radius);
+  font-size: 16px;
+  box-sizing: border-box;
+  background-color: var(--light-color);
+  cursor: pointer;
+  transition: border-color 0.2s;
+}
+
+.select:focus {
+  outline: none;
+  border-color: #2196f3;
+}
+
+.select[size] {
+  height: auto;
+  padding: 0;
+  overflow-y: auto;
+}
+
+.option {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.option:hover {
+  background-color: #f0f0f0;
+}
+
+.option:disabled {
+  color: #999;
+  cursor: not-allowed;
+  background-color: transparent;
+}
+
+.loadingOption {
+  color: #666;
+  font-style: italic;
+  text-align: center;
+  padding: 8px 12px;
+}
+
+.errorOption {
+  color: var(--red-color);
+  text-align: center;
+  padding: 8px 12px;
+}

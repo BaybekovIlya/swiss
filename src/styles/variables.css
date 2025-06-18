@@ -1,0 +1,14 @@
+:root {
+  --black-color: #000;
+  --backdrop-color: rgba(0, 0, 0, 0.5);      
+  --light-color: #fff;      
+  --red-color: #DA1515;    
+
+  --gray-color: #D9D9D9;
+  --background-color: #c5c5c5;
+  
+  --font-family: "Montserrat", sans-serif;
+  --second-family: "Font Awesome 6 Free", sans-serif;
+
+  --border-radius: 12px;
+}
